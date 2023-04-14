@@ -58,6 +58,7 @@ public class ExceptionHandleApp {
 			
 			//프로그램 개발자에게 예외 관련 메세지를 기록하여 제공 - 에러 로그 => 필수
 			// => 참조변수에 저장된 예외 관련 객체의 메소드를 호출하여 작성
+			//Throwable throwable = new Throwable();
 			//Throwable.getMessage() : 예외 객체에 저장된 예외 메세지를 반환하는 메소드
 			//System.out.println("[예외]"+e.getMessage());
 			
