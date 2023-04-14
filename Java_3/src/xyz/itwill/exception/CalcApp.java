@@ -8,12 +8,12 @@ public class CalcApp {
 		Scanner scanner=new Scanner(System.in);
 		
 		System.out.print("첫번째 정수값 입력 >> ");
+		
 		int num1=scanner.nextInt();
 		System.out.println("두번째 정수값 입력 >> ");
 		int num2=scanner.nextInt();
 		
 		System.out.print("결과 = "+num1+"/"+num2+"="+num1/num2);
-		
 		scanner.close();
 		}
 	
