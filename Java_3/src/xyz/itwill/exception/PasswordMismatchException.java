@@ -14,5 +14,5 @@ public class PasswordMismatchException extends Exception {
 		// => super 키워드로 Exception 클래스의 매개변수가 있는 생성자를 호출하여 예외
 		//메세지를 Exception 클래스의 필드에 저장
 		super(message);//부모클래스(Exception)의 생성자 호출 
-	} 
+	}
 }
