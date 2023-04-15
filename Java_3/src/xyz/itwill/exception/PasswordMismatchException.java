@@ -13,6 +13,6 @@ public class PasswordMismatchException extends Exception {
 		//Exception 클래스에서 예외 메세지를 저장하기 위한 필드
 		// => super 키워드로 Exception 클래스의 매개변수가 있는 생성자를 호출하여 예외
 		//메세지를 Exception 클래스의 필드에 저장
-		super(message);//부모클래스(Exception)의 생성자 호출
+		super(message);//부모클래스(Exception)의 생성자 호출 
 	}
 }
