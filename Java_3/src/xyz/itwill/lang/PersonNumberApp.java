@@ -30,7 +30,7 @@ public class PersonNumberApp {
 		
 		scanner.close();
 		
-		//입력된 주민번호레서 8번째 위치의 문자 하나를 문자열로 분리하여 저장
+		//입력된 주민번호에서 8번째 위치의 문자 하나를 문자열로 분리하여 저장
 		String separation=number.substring(7, 8);
 		//System.out.println("separation = "+separation);
 		
