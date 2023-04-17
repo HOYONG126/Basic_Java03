@@ -11,6 +11,8 @@ import java.util.Scanner;
 public class ConsoleCalculateApp {
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		
+		//연산식을 String으로 입력받고 공백을 없애주는 걸 써준뒤 2번째 부호에 따라 각 계산 다른 클래스 메소드로 보내준다
+		//계산되면 계산값을 그 클래스 필드에 넣어 display라는 메소드를 통해 보여줄 수 있게만든다.
+		//가져온다.
 	}
 }
