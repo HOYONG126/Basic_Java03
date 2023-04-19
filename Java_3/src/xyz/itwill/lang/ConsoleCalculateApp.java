@@ -39,7 +39,7 @@ public class ConsoleCalculateApp {
 			System.out.println("[에러]연산식을 잘못 입력 하였습니다.");
 			System.exit(0);
 		}
-
+		
 		try {
 			//첫번째 피연산자를 분리하여 정수값으로 변환하여 저장
 			// => Integer.parseInt(String str) 메소드 호출시 NumberFormatException 발생 가능
