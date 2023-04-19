@@ -1,7 +1,5 @@
 package xyz.itwill.util;
-
 import java.util.Date;
-
 //Date 클래스 : 날짜와 시간을 저장하고 저장된 날짜와 시간 관련 기능을 메소드로 제공하기 위한 클래스
 public class DateApp {
 	@SuppressWarnings("deprecation")
@@ -35,11 +33,10 @@ public class DateApp {
 		long currentTime=System.currentTimeMillis();
 		
 		//[2000년 1월 1일 0시 0분 0초]가 저장된 Date 객체 생성
-		Date wantDate=new Date(100, 0, 1);
+		Date wantDate=new Date(100, 0, 26);
 		System.out.println("wantDate = "+wantDate);
 		
 		long wantTime=wantDate.getTime();
-		
 		System.out.println("연산결과(일) = "+(currentTime-wantTime)/(1000*86400));
 	}
 }
