@@ -1,5 +1,5 @@
 package xyz.itwill.util;
-//------------------일괄처리 하는 방법 중요-----------------------------------
+
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -45,7 +45,7 @@ public class SetApp {
 		//Set.size() : Set 객체에 저장된 요소의 객체를 반환하는 메소드
 		System.out.println("요소의 갯수 = "+set.size());
 		System.out.println("===============================================================");
-		//Set.remove() : 매개변수로 전달받아 객체와 동일한 요소를 Set 객체에서 삭제하는 메소드
+		//Set.remove() : 매개변수로 전달받은 객체와 동일한 요소를 Set 객체에서 삭제하는 메소드
 		set.remove("임꺽정");
 		System.out.println("set = "+set);
 		System.out.println("===============================================================");
