@@ -23,7 +23,7 @@ public class FrameTwoApp extends Frame {
 		
 		setVisible(true);
 	}
-
+	
 	public static void main(String[] args) {
 		//Frame 클래스를 상속받은 자식클래스로 객체 생성
 		// => Frame 객체 생성 - 프레임 생성
