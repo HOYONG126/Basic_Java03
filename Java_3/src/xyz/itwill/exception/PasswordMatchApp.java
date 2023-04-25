@@ -18,7 +18,7 @@ public class PasswordMatchApp {
 			System.out.println("[결과]입력된 비밀번호가 맞습니다.");
 		} else {
 			System.out.println("[결과]입력된 비밀번호가 틀림니다.");
-		}
+		} 
 		
 		scanner.close();
 		*/
