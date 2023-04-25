@@ -58,7 +58,7 @@ public class FileApp {
 		// => 현재 프로그램의 작업 디렉토리(프로젝트 폴더)를 기준으로 파일 경로 설정
 		// => 상대경로 표현방법은 [..] 기호를 사용하여 상위 디렉토리를 표현하며 [파일] 
 		//형식으로 작업 디렉토리에 존재하는 파일이나 하위 디렉토리 표현
-		File fileFour=new File("src");
+		File fileFour=new File("src");									//질문
 		
 		if(fileFour.exists()) {
 			//File.toString() : File 객체에 저장된 파일경로를 문자열로 반환하는 메소드

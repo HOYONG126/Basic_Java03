@@ -30,7 +30,7 @@ public class FileCopyCharApp {
 			while(true) {
 				readByte=in.read();
 				if(readByte==-1) break;
-				out.write(readByte);
+				out.write(readByte); 				//질문
 			}
 			
 			System.out.println("[메세지]파일을 성공적으로 복사 하였습니다.");

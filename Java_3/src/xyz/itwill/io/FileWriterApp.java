@@ -24,7 +24,7 @@ public class FileWriterApp {
 		//내용이 파일에 저장 - 덮어씌우기(OverWrite)
 		//FileWriter out=new FileWriter("c:/data/char.txt");
 		FileWriter out=new FileWriter("c:/data/char.txt",true);
-		
+																//질문
 		int readByte;
 		
 		while(true) {
@@ -32,7 +32,7 @@ public class FileWriterApp {
 			
 			if(readByte==-1) break;
 			
-			out.write(readByte);
+			out.write(readByte);        						 //질문
 		}
 		
 		//FileWriter.close() : 파일 출력스트림을 제거하는 메소드
