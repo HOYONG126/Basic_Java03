@@ -14,6 +14,8 @@ public class ConsoleIOApp {
 		//입력스트림 생성
 		// => 입출력 관련 클래스는 스트림의 다단계 연결을 사용하여 스트림 확장 가능
 		//키보드로 문자열을 입력받기 위한 입력스트림 생성
+		
+		//문자데이터도 읽어들일 수 있게 확장 + 문자열로 읽기가능
 		BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
 			
 		//Java 프로그램 개발을 위해 기본적으로 제공되는 모니터 출력스트림(System.out)은
