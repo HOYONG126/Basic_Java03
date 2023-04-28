@@ -64,7 +64,7 @@ public class ChatClientApp extends JFrame implements ActionListener {
 		
 		try {
 			//Socket 객체를 생성하여 필드에 저장 - 서버 접속
-			socket=new Socket("192.168.13.31", 5000);
+			socket=new Socket("192.168.13.16", 5000);
 			
 			//소켓의 입력스트림을 제공받아 대량의 문자데이타를 읽을 수 있는 
 			//입력스트림으로 확장하여 필드에 저장
